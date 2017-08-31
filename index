@@ -1,0 +1,41 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="uf-8">
+    <title> soccer essentials </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>soccer is an amazing sport</h1>
+    </header>  
+    
+    
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>page2</li>
+            <li>page3</li>
+        </ul>
+    </nav>
+    
+    <section>
+        <article>
+            <header>
+                <hgroup>
+                    <h1> Everything you need for soccer </h1>
+                    <h2> How to stay in shape for soccer speed </h2>
+                </hgroup>
+            </header>
+            <p> soccer is so much fun! </p>
+            </footer>
+        </article>
+    </section>
+    
+    
+    <aside>
+    
+</body>
+</html>
+        
+         
