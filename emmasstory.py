@@ -1,87 +1,57 @@
-#breaking out of hearst castle
+#My Python Story
 import time
-import sys
-def print_slow(str):
-    for letter in str:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        time.sleep(0.03)
+time.sleep(1)
 
-accumulator = 5
-str(accumulator)
-import time #This gives a time variable for waiting before each passage appears.
+def greeting():
+    print("Hello...")
+    time.sleep(1)
+    response=input("Do you want to play a game? (yes/no) ")
+    return response
 
 
- 
-def setting():
-  print ("") #This is the background story and sets up the game.
-  print ('You wake up in the morning and find yourslf stuck in hearst castle. The big buildings and gold for ceiling are freaking you out, until a man walks in. He tells you there are only two ways to get out and you have to figure it out.')
-  print ("")
-  (accumulator)
+def second_choice():
+    time.sleep(1)
+    print("Great...")
+    time.sleep(1)
+    response=input("there's a creepy box on your floor do you open it? (yes/no) ")
+    return response
+def haters():
+    print("Lame...Bye Then! ")
+
+def third_choice():
+    time.sleep(3)
+    print("Congratulations, you survived the first round! ")
+    time.sleep(3)
+    response=input("The box has something moving inside of it... do you want to throw it out or keep it? (throw it out/keep it) ")
+    return response
+
+def yes():("there is a little box inside...")
 
 
-def startgame(): #This is the first intro
-  time.sleep(1)
-  print("This is the Hearst Castle, Storyline game.")
-  print("")
-  time.sleep(1)
-  print('Welcome, ready to play our game?')
-  print("")
-  time.sleep(1)
-  print('(I should probably answer with \"Yes\")')
-  print ("") 
-  answer1 = input()
-  if answer1 in {'Yes', 'yes', 'YES'}:
-    setting()
-  else: #This makes it that if they dont answer yes, it'll force them to say yes.
-    print ("")
-    print ('Can you read?')
-    print ("")
+def throw():
+    time.sleep(3)
+    print("you won and killed the snake in the box!! THE END ")
 
-startgame()
-def p():
+def last_choice():
+    time.sleep(3)
+    print("Dont be an idiot... throw that box out")
+    time.sleep(3)
+    response=input("You've made it to the end of the game. ")
+    return response
 
+def shrimp():
+    time.sleep(3)
+    print("You have chosen the All-you-can-eat-shrimp for $4.99. Enjoy! ")
 
-def Choice1(accumulator): #This is the first intro to a decision.
-  time.sleep(1.5) 
-  print ('emma: Hey! Hey! Wake Up! We\'re making an escape. Since I\'m stuck with you, you\'re coming with me.')
-  print ("")
-  time.sleep(1.5)
-  print ( name + ': (Crap he looks dangerous, I should listen to him).')
-  print ("")
-  time.sleep(1.5)
-  print ('What will you do? If you\'ll help him, answer Yes, if not say No.')
-  print ("")
-
-(accumulator)
-
-
-
-def decisionrepeat1(accumulator): #this is the first choice, they can die at this point.
-  decision1=input()
-  if decision1 in {'Yes', 'yes', 'YES'}:
-    print ("")
-    print (name + ': Yeah, I\'ll help you I guess.')
-    print ("")
-    choseyes1(accumulator)
-  elif decision1 in {'No', 'no', 'NO'}:
-    print ("")
-    time.sleep(1.5)
-    print ('emma: i suggest you play and help me get out of here')
-    print ("")
-    time.sleep(1.5)
-    print(Fore.RED) #this allows them to restart this choice again.
-    print_slow ('You have died.')
-    print("")
-    print("")
-    accumulator = accumulator - 1
-    time.sleep(2)
-    print_slow ("You have " + str(accumulator) + " lives left. Type restart to return to checkpoint.")
-    print("")
-    if accumulator == 0:
-      print_slow("Nevermind. You have lost all your lives. Game Over. Please Try Again later.")
-
-time.sleep(2)
-exit()
-   
-   
+def hotpocket():
+    time.sleep(3)
+    print("You have chosen 100 Hot Pockets. Enjoy! ")
+    
+x = greeting()
+if x== "yes":
+    y = second_choice()
+    if y== "throw":
+        z = third_choice()
+        if z== "open":
+            a = last_choice()
+            
